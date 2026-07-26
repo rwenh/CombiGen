@@ -1,0 +1,13 @@
+[package]
+name = "combigen"
+version = "0.1.0"
+edition = "2021"
+description = "Rust port of the combinatorics.py / backtracking.py toolkit"
+
+[lib]
+name = "combigen"
+path = "src/lib.rs"
+
+[[bin]]
+name = "demo"
+path = "src/demo.rs"
